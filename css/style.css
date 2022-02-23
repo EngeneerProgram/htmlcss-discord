@@ -60,8 +60,7 @@ nav{
     right:12%;
     top:50%;
     transform: translate(-5%, -50%);
-    width: 80px;
-    height: 45px;
+    padding:12.5px 20px;
     border-radius: 50px;
     cursor:pointer;
     border-block:none;
@@ -169,4 +168,53 @@ font-size: 1rem;
 }
 
 /*fine content1*/
+
+
+.content2{
+    position:relative;
+    width: 1250px;
+    height: 80vh;
+    margin:10rem auto;
+    background-image: url(../img/discord_onde.PNG);
+    background-position: center;
+    background-color: #F6F6F6;
+    background-blend-mode: soft-light;
+    
+}
+
+
+.photo_where{
+    width: 600px;
+    height: 40vh;
+    background-image: url(../img/discord2.PNG);
+    position:absolute;
+    right:20px;
+    top:25%;
+}
+
+.paragrafo_discord2{
+    position:absolute;
+    width: 500px;
+    height: 15vh;
+    
+    left:16%;
+    bottom:50%;
+}
+
+.paragrafo_discord2 > h2{
+    line-height: 40px;
+    
+    font-size: 40px;
+}
+
+.paragrafo_semp2{
+    width: 500px;
+    height: 30vh;
+    
+    position:absolute;
+    bottom:100px;
+    left:16%;
+    line-height: 30px;
+    color: #111213;
+}
 
