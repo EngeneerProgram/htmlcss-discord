@@ -6,6 +6,7 @@
 }
 
 .hero_container{
+    position:relative;
     height: 71vh;
     width: 100%;
     background-image: url(../img/jumbo.png);
@@ -16,9 +17,9 @@
 
 .logo{
     position:absolute;
-    left:2%;
+    left:12%;
     top:50%;
-    transform: translate(-2%, -50%);
+    transform: translate(-12%, -50%);
 }
 
 nav{
@@ -56,12 +57,116 @@ nav{
 
 .btn1{
     position:absolute;
-    right:2%;
+    right:12%;
     top:50%;
-    transform: translate(-2%, -50%);
+    transform: translate(-5%, -50%);
     width: 80px;
     height: 45px;
     border-radius: 50px;
     cursor:pointer;
+    border-block:none;
     
 }
+.mac, .discord_web{
+    padding:17px 20px;
+    border-radius: 30px;
+    cursor:pointer;
+    border-block:none;
+    
+}
+.mac{
+    position:absolute;
+    bottom:0;
+    left:160px;
+    } 
+
+.discord_web{
+    position:absolute;
+    bottom:0;
+    right:130px;
+    background-color: #23272A;
+    color:white;
+}
+#macbotton{
+font-size: 1rem;
+    
+}
+
+.info_banner{
+    width: 700px;
+    height: 40vh;
+    position:absolute;
+    left:33%;
+    top:10%;
+}
+
+.info_banner > h1{
+    position:absolute;
+    top:18%;
+    left:8%;
+    color:white;
+    font-weight: bold;
+    font-size: 53px;
+    
+}
+
+.info_banner > p{
+    position:absolute;
+    bottom: 70px;
+    text-align: center;
+    font-size: 22px;
+    color:white;
+    line-height: 30px;
+    
+}
+
+/*fine banner iniziale****/
+
+.content1{
+    position:relative;
+    width: 1250px;
+    height: 80vh;
+    margin:8rem auto;
+}
+
+.clearfix{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+.photo_study img{
+    float:left;
+}
+
+.paragrafo_discord1{
+    position:absolute;
+    right: -88px;
+    top: 7px;
+    width: 500px;
+    height: 27vh;
+    }
+
+.paragrafo_discord1 > h2{
+    line-height: 40px;
+    color:#23272A;
+    font-size: 40px;
+    
+}
+
+.paragrafo_discord1 > p{
+    text-align: center;
+}
+
+.paragrafo_semp{
+    position:absolute;
+    right: 145px;
+    bottom:250px;
+    width: 265px;
+    height: 27vh;
+    line-height: 30px;
+    color: #636668;
+}
+
+/*fine content1*/
+
